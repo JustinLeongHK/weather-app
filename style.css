@@ -1,0 +1,68 @@
+/* CSS Reset */
+p {
+  margin: 0px;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(228, 223, 223);
+  color: white;
+}
+
+button:active {
+  background-color: rgb(228, 223, 223);
+  box-shadow: 0 10px 5px 5px #666;
+  transform: translateY(4px);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #b85042;
+  padding: 1em 2em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100vh;
+}
+
+header p {
+  font-size: 1.5rem;
+  color: #e7e8d1;
+}
+
+main {
+  background-color: #a7beae;
+  flex-grow: 1;
+}
+
+main p {
+  color: #b85042;
+}
+
+.temp {
+  width: 50%;
+  max-width: 30em;
+  margin: 3em auto;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 3em 0em;
+  border-radius: 10px;
+}
+
+.temp-reading {
+  font-size: 8rem;
+}
+
+.temp-location {
+  font-size: 2rem;
+  font-weight: bold;
+}
