@@ -8,15 +8,60 @@
   </head>
   <body>
     <header>
-      <p>Weather App</p>
+      <p>Sky Watcher</p>
     </header>
     <main>
-      <button class="temp" id="refresh-button">
-        <p class="temp-reading">30</p>
-        <p class="temp-location">Kuala Lumpur</p>
-      </button>
+      <div class="current weather" id="refresh-button">
+        <img
+          id="weather-icon-0"
+          class="weather-icon"
+          src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif"
+          alt="current weather icon"
+        />
+        <div class="weather-info">
+          <p class="temp" id="temp-reading-0"></p>
+          <p class="location" id="location"></p>
+          <p id="time-0" class="time"></p>
+        </div>
+      </div>
+      <div class="forecast-1 weather" id="refresh-button">
+        <img
+          id="weather-icon-1"
+          class="weather-icon"
+          src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif"
+          alt="current weather icon"
+        />
+        <div class="weather-info">
+          <p class="temp" id="temp-reading-1"></p>
+          <p id="time-1" class="time"></p>
+        </div>
+      </div>
+      <div class="forecast-2 weather" id="refresh-button">
+        <img
+          id="weather-icon-2"
+          class="weather-icon"
+          src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif"
+          alt="current weather icon"
+        />
+        <div class="weather-info">
+          <p class="temp" id="temp-reading-2"></p>
+          <p id="time-2" class="time"></p>
+        </div>
+      </div>
+      <div class="forecast-3 weather" id="refresh-button">
+        <img
+          id="weather-icon-3"
+          class="weather-icon"
+          src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif"
+          alt="current weather icon"
+        />
+        <div class="weather-info">
+          <p class="temp" id="temp-reading-3"></p>
+          <p id="time-3" class="time"></p>
+        </div>
+      </div>
     </main>
-    <footer><p>Press current temperature to refresh.</p></footer>
+    <footer><p>Click on the current temperature to refresh.</p></footer>
     <script src="script.js"></script>
   </body>
 </html>
